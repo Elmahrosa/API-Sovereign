@@ -122,9 +122,9 @@ GET /liquidity/marketplace
 ---
 
 ## 🗓️ Roadmap (Consensus Miami, May 5–7, 2026)
-- Q1 2026: Implement core routes + chain connectors
-- April 2026: Add compliance middleware + docs
-- May 2026: Showcase Warp All Chains API demo at Consensus Miami
+- **Q1 2026:** Implement core routes + chain connectors  
+- **April 2026:** Add compliance middleware + docs  
+- **May 2026:** Showcase Warp All Chains API demo at Consensus Miami  
 
 ---
 
@@ -134,4 +134,5 @@ TEOS-SAT and orbital governance modules remain under the **TEOS Sovereign Licens
 
 ---
 
-**Built with 🇪🇬 by Elmahrosa International*
+**Built with 🇪🇬 by Elmahrosa International**
+```
