@@ -1,4 +1,5 @@
 # 🇪🇬 Elmahrosa API-Sovereign
+![CI](https://github.com/Elmahrosa/API-Sovereign/actions/workflows/ci.yml/badge.svg?branch=main)
 
 **Egypt’s Sovereign API Layer — Civic-First, Compliance-Ready**
 
