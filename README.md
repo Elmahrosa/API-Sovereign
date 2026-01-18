@@ -6,6 +6,14 @@ Commercial use requires written approval from Elmahrosa International.
 
 ⚖️ Protected under dual license: PolyForm Noncommercial + TEOS Egypt Sovereign License (TESL).
 
+# 📍 Repo Standing Statement
+
+This repository is a **sovereign original** under **Elmahrosa International — TEOS Egypt**.  
+Governance is anchored in [TEOS-FORGE](https://github.com/Elmahrosa/TEOS-FORGE).  
+Commercial use requires written approval from Elmahrosa International.  
+
+⚖️ Protected under dual license: PolyForm Noncommercial + TEOS Egypt Sovereign License (TESL).
+
 # ?? Repo Standing Statement
 
 This repository is a **sovereign original** under **Elmahrosa International � TEOS Egypt**.  
@@ -33,133 +41,6 @@ Elmahrosa API-Sovereign is the official service interface for TEOS infrastructur
 - **Compliance:** BankChain middleware for audit-ready settlement
 
 ---
-
-## 📂 Repository Structure
-```
-API-Sovereign/
-├── README.md
-├── LICENSE.md
-├── ROADMAP.md
-├── CONTRIBUTING.md
-│
-├── src/
-│   ├── index.js          # API entrypoint
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── wallet.js
-│   │   ├── governance.js
-│   │   ├── i18n.js
-│   │   ├── chains.js
-│   │   └── liquidity.js
-│   └── middleware/
-│       ├── authMiddleware.js
-│       └── complianceMiddleware.js
-│
-├── config/
-│   ├── db.js
-│   ├── chains.yml
-│   └── compliance.yml
-│
-├── docs/
-│   ├── API.md
-│   ├── INTEGRATION.md
-│   └── SECURITY.md
-│
-└── tests/
-    ├── test-auth.js
-    ├── test-wallet.js
-    ├── test-governance.js
-    └── test-liquidity.js
-```
-
----
-
-## 🚀 Quick Start
-```bash
-git clone https://github.com/Elmahrosa/API-Sovereign
-cd API-Sovereign
-npm install
-npm run dev
-```
-
----
-
-## 🔑 Example Endpoints
-
-### Auth
-```http
-POST /auth/login
-{
-  "user": "ayman",
-  "method": "wallet"
-}
-```
-
-### Wallet
-```http
-POST /wallet/transfer
-{
-  "from": "ayman",
-  "to": "pioneer1",
-  "token": "TEOS",
-  "amount": 100
-}
-```
-
-### Governance
-```http
-POST /governance/petition
-{
-  "title": "Reserve 30% bandwidth for schools",
-  "creator": "ayman"
-}
-```
-
-### I18n
-```http
-POST /i18n/translate
-{
-  "text": "مرحبا بالعالم",
-  "targetLang": "en"
-}
-```
-
-### Chains
-```http
-GET /chains/solana/status
-GET /chains/ethereum/block/:id
-GET /chains/pi/payment/:txid
-```
-
-### Liquidity
-```http
-GET /liquidity/marketplace
-```
-
----
-
-## 🗓️ Roadmap (Consensus Miami, May 5–7, 2026)
-- **Q1 2026:** Implement core routes + chain connectors  
-- **April 2026:** Add compliance middleware + docs  
-- **May 2026:** Showcase Warp All Chains API demo at Consensus Miami  
-
----
-
-## 📜 License
-Elmahrosa API-Sovereign is released under the **MIT License** for maximum adoption.  
-TEOS-SAT and orbital governance modules remain under the **TEOS Sovereign License** to protect civic-first compliance.
-
----
-
-**Built with 🇪🇬 by Elmahrosa International**
-```
-
-
-## ?? Integration Summary
-This repository is part of the **Elmahrosa Sovereign Stack**.  
-Governance is anchored in **TEOS-FORGE**, with integrations across Bankchain, ERT-LAUNCH, FPBE, and other civic modules.  
-See full details in [docs/integrations.md](https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/integrations.md).
-
 
 ## 🔗 Integration Summary
 This repository is part of the **Elmahrosa Sovereign Stack**.  
